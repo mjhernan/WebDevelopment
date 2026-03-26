@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Your next marathon!</title>
+    </head>
+
+    <body>
+        <h1>Race Registration!</h1>
+        <form action="/marathon/">
+            <section>
+                <label for="first_name">First Name</label>
+                <input type="text" name="first_name" id="first_name" required>
+
+                <label for="last_name">Last Name</label>
+                <input type="text" name="last_name" id="last_name" required>
+            </section>
+
+            <section>
+                <p>Select a Race:</p>
+
+                <input type="radio" name="length" value="fun" id="fun">
+                <label for="fun">Fun Run 5K</label>
+                <br>
+                <input type="radio" name="length" value="half" id="half">
+                <label for="half">Half Marathon</label>
+                <br>
+                <input type="radio" name="length" value="full" id="full">
+                <label for="full">Full Marathon</label>
+            </section>
+
+            <p></p>
+
+            <section>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" required>
+            </section>
+
+            <p></p>
+
+            <section>
+                <label for="age_group">Select Age Group</label>
+                <select id="age_group">
+                    <option value="">--Please select--</option>
+                    <option value="kids">Under 18</option>
+                    <option value="young_adults">18 to 30</option>
+                    <option value="adults">31 to 50</option>
+                    <option value="seniors">Over 50</option>
+                </select>
+            </section>
+
+            <p></p>
+
+            <button>Register!</button>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Forms</title>
+    </head>
+
+    <body>
+        <h1>Form</h1>
+
+        <h2>Regular form</h2>
+        <form action="/someAction/">
+            <p>
+                <label for="username">Enter username:</label>
+                <input type="text" placeholder="username" id="username" name="username" required>
+            </p>
+
+            <p>
+                <label for="password">Enter password:</label>
+                <input type="password" placeholder="password" id="password" name="password" minlength="8" maxlength="20" required>
+            </p>
+
+            <p>
+                <label for="color">Enter color:</label>
+                <input type="color" id="color" name="color">
+            </p>
+
+            <p>
+                <label for="number">Enter number:</label>
+                <input type="number" placeholder="number" id="number" name="number">
+            </p>
+
+            <button type="submit">Submit</button>
+            <button type="button">Does nothing</button>
+        </form>
+
+        <h2>Google form</h2>
+        <form action="https://www.google.com/search">
+            <p>
+                <label for="google_search">Enter Google search</label>
+                <input type="text" placeholder="search" name="q" id="google_search">
+            </p>
+
+            <button type="submit">Search</button>
+        </form>
+
+        <h2>YouTube form</h2>
+        <form action="https://www.youtube.com/results">
+            <p>
+                <label for="youtube_search">Enter YouTube search</label>
+                <input type="text" placeholder="search" id="youtube_search" name="search_query">
+            </p>
+
+            <button type="submit">Search</button>
+        </form>
+
+        <h2>Other inputs</h2>
+        <form action="/action/">
+            <p>
+                <input type="checkbox" name="agree" id="agree">
+                <label for="agree">Agree to everything</label>
+            </p>
+
+            <p>
+                <label for="xs">XS</label>
+                <input type="radio" name="size" id="xs" value="xs">
+
+                <label for="s">S</label>
+                <input type="radio" name="size" id="s" value="s">
+
+                <label for="m">M</label>
+                <input type="radio" name="size" id="m" value="m">
+            </p>
+
+            <p>
+                <label for="dog_breed">Which is the best dog breed?</label>
+                <select name="best_dog_breed" id="dog_breed">
+                    <option value="golden_retriever">Golden Retriever</option>
+                    <option value="german_shepherd">German Shepherd</option>
+                    <option value="border_collie">Border Collie</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="volume">Volume</label>
+                <input type="range" name="volume" id="volume" min="0" max="100">
+            </p>
+
+            <p>
+                <label for="requests">Any special requests?</label> <br>
+                <textarea name="requests" id="requests" rows="5" cols="30">Type your special request</textarea>
+            </p>
+
+            <button>Submit</button>
+        </form>
+    </body>
+</html>
