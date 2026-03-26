@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Dog Breeds</title>
+        <link rel="stylesheet" href="DogBreeds.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Dog Breeds Encyclopedia</h1>
+            <p>A simple reference guide to popular dog breeds</p>
+
+            <section>
+                <a href="breeds">Breeds</a>
+                <a href="suggest_breed">Suggest a breed</a>
+            </section>
+        </header>
+
+        <main>
+            <h2>Breed comparison</h2>
+            <hr>
+            <table>
+                <tr>
+                    <th>Group</th>
+                    <th>Breed</th>
+                    <th>Av. Weight (Kg)</th>
+                    <th>Av. Weight (Lb)</th>
+                    <th>Lifespan (years)</th>
+                    <th>Temperament</th>
+                </tr>
+
+                <tr>
+                    <th rowspan="2">Working & herding</th>
+                    <td>German Shepherd</td>
+                    <td>22-40</td>
+                    <td>48-88</td>
+                    <td>9-13</td>
+                    <td>Confident, courageous, and smart</td>
+                </tr>
+
+                <tr>
+                    <td>Border Collie</td>
+                    <td>12-20</td>
+                    <td>26-44</td>
+                    <td>12-15</td>
+                    <td>Energetic, intelligent, and responsive</td>
+                </tr>
+
+                <tr>
+                    <th rowspan="2">Companion</th>
+                    <td>Chihuahua</td>
+                    <td>1.5-3</td>
+                    <td>3-6</td>
+                    <td>12-20</td>
+                    <td>Sassy, confident, and fiercely loyal</td>
+                </tr>
+
+                <tr>
+                    <td>French Poodle</td>
+                    <td>2-4</td>
+                    <td>4-9</td>
+                    <td>12-18</td>
+                    <td>Lively, clever, and affectionate</td>
+                </tr>
+
+                <tr>
+                    <th>Family</th>
+                    <td>Golden Retriever</td>
+                    <td>25-34</td>
+                    <td>55-75</td>
+                    <td>10-12</td>
+                    <td>Friendly, trustworthy, and gentle</td>
+                </tr>
+            </table>
+
+            <h2>Suggest a breed</h2>
+            <hr>
+            <form action="/suggest_breed">
+                <label for="full_name">Your name</label>
+                <br>
+                <input type="text" name="full_name" placeholder="Maria Hernandez", id="full_name" required>
+
+                <p></p>
+
+                <label for="email">Email</label>
+                <br>
+                <input type="email" name="email" placeholder="maria@outlook.com", id="email" required>
+
+                <p></p>
+
+                <label for="breed_name">Breed name</label>
+                <br>
+                <input type="text" name="breed_name" placeholder="Labrador Retriever" id="breed_name" required>
+
+                <p></p>
+
+                <label for="group">Group</label>
+                <br>
+                <select id="group">
+                    <option value="working_herding">Working & Herding</option>
+                    <option value="companion">Companion</option>
+                    <option value="family">Family</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <p></p>
+
+                <label for="notes">Additional notes</label>
+                <br>
+                <textarea id="notes">Tell us about this breed</textarea>
+
+                <p></p>
+
+                <button>Submit suggestion</button>
+            </form>
+        </main>
+
+        <footer>
+            <p>Dog Breeds Encyclopedia - Built while learning web development 2026</p>
+        </footer>
+    </body>
+</html>

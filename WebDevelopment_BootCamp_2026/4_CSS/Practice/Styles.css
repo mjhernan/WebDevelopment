@@ -1,0 +1,27 @@
+﻿h1 {
+    width: 50%;
+    text-align: center;
+    text-decoration: #A98B76 underline dotted;
+    background-color: whitesmoke;
+    border: 1px solid lightgray;
+}
+
+h2 {
+    color: #A98B76;
+    font-weight: lighter;
+    font-family: Elephant, serif;
+    letter-spacing: 10px;
+}
+
+button {
+    background-color: #BABF94;
+    font-size: larger;
+}
+
+p {
+    color: antiquewhite;
+    background-color: teal;
+    text-align: right;
+    font-weight: bold;
+    line-height: 20px;
+}

@@ -1,0 +1,61 @@
+﻿*:not(hr) {
+    margin: 0;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+header, footer {
+    background-color: #4B2E2B;
+}
+
+main {
+    background-color: #3B3330;
+}
+
+section {
+    background-color: #8C5A3C;
+}
+
+th {
+    color: #4B2E2B;
+    background-color: #FFF8F0;
+    border: 1px solid #4B2E2B;
+    border-radius: 5px;
+}
+
+td {
+    border: 1px solid #FFF8F0;
+}
+
+table, form {
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+h1, h2, td, a, label {
+    color: #FFF8F0;
+}
+
+p {
+    color: #8C5A3C;
+}
+
+button, input, select, textarea {
+    color: #FFF8F0;
+    background-color: #3B3330;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #8C5A3C;
+}
+
+input, select, button {
+    width: 300px;
+    height: 30px;
+}
+
+textarea {
+    width: 300px;
+    height: 75px;
+}
