@@ -1,0 +1,58 @@
+﻿* {
+    margin: 0;
+    text-align: center;
+}
+
+header, footer {
+    background-color: #B36A5E;
+    padding: 16px;
+}
+
+main {
+    background-color: #EEE2DF;
+    padding: 16px;
+}
+
+img {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 50%;
+}
+
+h1 {
+    color: #C89F9C;
+}
+
+h2, p {
+    color: #EED7C5;
+}
+
+#family_button {
+    background-color: #B36A5E;
+}
+
+#breed_button {
+    background-color: #C89F9C;
+}
+
+button {
+    width: 125px;
+    height: 30px;
+    color: #EEE2DF;
+    border-radius: 7px;
+    border: none;
+}
+
+table {
+    margin: 15px auto;
+    border-collapse: collapse;
+}
+
+.title {
+    color: #C89F9C;
+}
+
+td {
+    border: 1px solid #B36A5E;
+    padding: 3px 15px;
+}
